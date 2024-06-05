@@ -14,7 +14,7 @@ export const App = () => {
   const [colour, setColour] = useState<HslColour>(`hsl(0, 0%, 0%)`);
 
   return (
-    <div style={{ backgroundColor: colour }} className="colour">
+    <div style={{ backgroundColor: colour }} className="App">
       <button onClick={() => setColour(randomColour())}>click me</button>
     </div>
   );
